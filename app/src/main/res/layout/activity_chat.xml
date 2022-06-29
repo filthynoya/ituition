@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textSize="30dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/chat_user_othername"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/chat_user_othername"
+        android:id="@+id/chat_content_list"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/pink"
+        android:layout_alignParentBottom="true"
+        android:hint="type something"
+        android:id="@+id/chat_box"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_toRightOf="@id/chat_box"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/send_btn"
+        android:backgroundTint="@color/pink"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

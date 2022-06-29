@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103286510227",
+    "project_id": "ituition-2f5e0",
+    "storage_bucket": "ituition-2f5e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103286510227:android:175a1ebbe714bc4c303366",
+        "android_client_info": {
+          "package_name": "com.example.i_tuition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103286510227-qfbd6tm26o4824724rpq1blaadlpckvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGuOD6nn-AtCGXZeyDChEbqF8ymC80Lc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103286510227-qfbd6tm26o4824724rpq1blaadlpckvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

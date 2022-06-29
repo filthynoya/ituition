@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        drawable="@drawable/home_ic"
+        text="@string/home" />
+    <tab
+        drawable="@drawable/add_ic"
+        text="@string/add" />
+    <tab
+        drawable="@drawable/ic_baseline_message_24"
+        text="@string/notification" />
+    <tab
+        drawable="@drawable/profile_ic"
+        text="@string/profile" />
+</tabs>

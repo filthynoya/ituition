@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Student Class"
+        android:id="@+id/add_class_text"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/pink"
+        android:layout_below="@+id/add_class_text"
+        android:inputType="number"
+
+        android:id="@+id/add_class_edit" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Subjects"
+        android:layout_below="@+id/add_class_edit"
+        android:id="@+id/add_sub_text"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/pink"
+        android:layout_below="@+id/add_sub_text"
+        android:inputType="text"
+
+        android:id="@+id/add_sub_edit" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Weekdays"
+        android:layout_below="@+id/add_sub_edit"
+        android:id="@+id/add_week_text"
+        />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Sunday"
+        android:layout_below="@+id/add_week_text"
+        android:id="@+id/sunday"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_below="@+id/add_week_text"
+        android:layout_toRightOf="@id/sunday"
+        android:id="@+id/monday"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layout_below="@+id/add_week_text"
+        android:layout_toRightOf="@id/monday"
+        android:id="@+id/tuesday"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_below="@+id/add_week_text"
+        android:layout_toRightOf="@id/tuesday"
+        android:id="@+id/wednesday"/>
+
+    <CheckBox
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:layout_below="@+id/sunday"
+        android:id="@+id/thursday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:layout_below="@+id/sunday"
+        android:layout_toRightOf="@id/thursday"
+        android:id="@+id/friday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:layout_below="@+id/sunday"
+        android:layout_toRightOf="@id/friday"
+        android:id="@+id/saturday"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Desired Fee"
+        android:layout_below="@+id/thursday"
+        android:id="@+id/add_fee_text"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/pink"
+        android:layout_below="@+id/add_fee_text"
+        android:inputType="number"
+
+        android:id="@+id/add_fee_edit" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Short Message"
+        android:layout_below="@+id/add_fee_edit"
+        android:id="@+id/add_msg_text"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/pink"
+        android:layout_below="@+id/add_msg_text"
+        android:inputType="textMultiLine"
+
+        android:id="@+id/add_msg_edit" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal ="true"
+        android:text="Post"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/pink"
+
+        android:id="@+id/add_post_btn"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iTuition</string>
+
+    //custom strings
+
+    <string name="home">Home</string>
+    <string name="add">Add Post</string>
+    <string name="notification">Chat</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_blank_fragment">Home blank fragment</string>
+    <string name="add_blank_fragment">add blank fragment</string>
+    <string name="notification_blank_fragment">notification blank fragment</string>
+    <string name="profile_blank_fragment">profile blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
